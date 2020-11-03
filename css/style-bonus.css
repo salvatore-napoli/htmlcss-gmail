@@ -1,0 +1,101 @@
+/* Utility Classes */
+.border-bottom {
+  border-bottom: 2px solid rgb(238,238,238);
+  padding-bottom: 9px;
+}
+
+.padding-top {
+  padding-top: 8px;
+}
+
+.bigtext {
+  font-size: 1.65em;
+  font-family: 'Grenze Gotisch', cursive;
+}
+
+.white {
+  color: white;
+}
+
+.inlineblock {
+  display: inline-block;
+}
+
+.email {
+  border: 1px solid black;
+  padding: 2px 0;
+  font-family: 'Dancing Script', cursive;
+  text-align: justify;
+}
+
+.bold {
+  font-weight: bold;
+}
+/* end Utility Classes */
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../img/icon.png');
+  background-repeat: repeat-y;
+  background-position: top right;
+  background-size: 40px;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#logo {
+  padding-left: 7px;
+  opacity: 0;
+}
+
+#searchbar {
+  width: 125px;
+}
+
+.button {
+  font-size: 11px;
+  border-radius: 4px;
+}
+
+#unread-alert {
+  text-decoration: underline red;
+  background-color: rgba(0, 128, 0, 0.5);
+}
+
+#unread {
+  background-color: #FFA501;
+  border-radius: 70%;
+  padding: 13px;
+}
+
+.greymail {
+  background-color: #D3D3D3;
+}
+
+.whitemail {
+  background-color: #FFFFFF;
+}
+
+.mailtext {
+  color: rgb(134,134,134);
+}
+
+.centered {
+  text-align: center;
+}
+
+#footer {
+  text-align: right;
+}
+
+.smalltext {
+  font-size: 15px;
+}

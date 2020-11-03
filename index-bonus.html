@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Grenze+Gotisch:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-bonus.css">
+    <meta charset="utf-8">
+    <title>Replica di Gmail</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <!-- Header con logo -->
+      <header class="border-bottom">
+        <img src="img/gmail.png" id="logo" alt="logo di gmail">
+      </header>
+      <!-- /Header con logo -->
+
+      <!-- Menu di ricerca -->
+      <nav class="padding-top">
+        <input type="text" name="searchbar" placeholder="Search" id="searchbar" required>
+        <input type="button" name="confirm" value="VAI" class="button">
+      </nav>
+      <!-- /Menu di ricerca -->
+
+      <main>
+        <!-- Avviso mail non lette -->
+        <div class="padding-top border-bottom" id="unread-alert">
+          <span class="bigtext white">
+            You have
+              <span id="unread" class="inlineblock">30</span>
+            unread</span>
+        </div>
+        <!-- /Avviso mail non lette -->
+
+        <!-- Email ricevute -->
+        <div class="padding-top border-bottom">
+          <div class="email greymail">
+            <input type="checkbox" name="selection" class="selection">
+            <span class="bold">&#9733; Oggetto della email</span>
+            <span class="mailtext">- testo della email...</span>
+          </div>
+
+          <div class="email whitemail">
+            <input type="checkbox" name="selection" class="selection">
+            <span class="bold">&#9733; Oggetto della email</span>
+            <span class="mailtext">- testo della email...</span>
+          </div>
+
+          <div class="email greymail">
+            <input type="checkbox" name="selection" class="selection">
+            <span class="bold">&#9733; Oggetto della email</span>
+            <span class="mailtext">- testo della email...</span>
+          </div>
+
+          <div class="email greymail">
+            <input type="checkbox" name="selection" class="selection">
+            <span class="bold">&#9733; Oggetto della email</span>
+            <span class="mailtext">- testo della email...</span>
+          </div>
+        </div>
+        <!-- /Email ricevute -->
+      </main>
+
+      <!-- Disclaimer -->
+      <footer>
+        <div class="padding-top centered bold" id="footer">
+          <span class="bigtext">
+            <strong>GMail</strong>
+          </span>
+          <span class="smalltext">
+            <em>powered by <strong>Davide</strong></em>
+          </span>
+        </div>
+      </footer>
+      <!-- /Disclaimer -->
+    </div>
+  </body>
+</html>
